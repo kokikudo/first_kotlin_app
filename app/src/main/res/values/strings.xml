@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">TestApp</string>
+    <string name="hello">hello</string>
 </resources>
+
+<!--
+左上のOpen editorから属性を追加できる
+地球儀のマークから追加したい言語を設定するとstringsフォルダの中に
+追加した言語のxmlファイルが追加される
+ -->

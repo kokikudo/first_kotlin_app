@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.testapp">
+    package="com.example.testapp"><!-- パッケージID -->
 
+    <!--
+        android:allowBackup バックアップを有効にするか
+        android:icon　アプリの表示アイコン
+        android:label　アプリの表示名
+        android:roundIcon　角丸のアプリの表示アイコン
+        android:supportsRtl　右から左に流れる言語に対応するか
+        android:theme テーマ
+
+        android:name Activityの設定
+        android:exported 外部に公開するか
+        <intent-filter> インテントの設定
+     -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
